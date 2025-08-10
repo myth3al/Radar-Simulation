@@ -1,2 +1,34 @@
-# Radar-Simulation
-Java radar simulator using XChart &amp; Apache Commons Math. Generates live rectangular pulses, LFM chirps, echoes, and pulse compression. Single window with arrow-key navigation between views. Built with Maven, easily extendable for advanced radar features.
+# Java Radar Simulation
+
+## Overview
+This project simulates basic radar waveform generation and visualization in **Java** using:
+- **Rectangular pulse**
+- **Linear Frequency Modulated (LFM) Chirp**
+- **Echo simulation**
+- **Pulse compression**
+
+The program uses **XChart** for plotting and **Apache Commons Math** for numerical operations.  
+A single window displays different simulation graphs, and you can cycle between them using the arrow keys.
+
+---
+
+## Features
+- Live waveform generation
+- Multiple radar signal types
+- Interactive view switching with arrow keys
+- Simple and extendable code structure
+
+---
+
+## Requirements
+- **Java 17+** (or compatible version)
+- **Maven** for dependency management
+- VS Code or IntelliJ recommended for development
+
+---
+
+## Installation
+1. **Clone the repository**
+```bash
+git clone https://github.com/YOUR-USERNAME/radar-simulation.git
+cd radar-simulation
