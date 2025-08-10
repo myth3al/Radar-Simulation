@@ -31,4 +31,15 @@ A single window displays different simulation graphs, and you can cycle between 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/YOUR-USERNAME/radar-simulation.git
-cd radar-simulation
+cd radar-simulation```
+
+2. **Build with Maven**
+```bash
+mvn clean install
+```
+
+3. **Run the program**
+```bash
+mvn exec:java -Dexec.mainClass="com.example.radar.RadarSimulator"
+```
+
